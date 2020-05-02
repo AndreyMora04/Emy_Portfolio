@@ -1,7 +1,84 @@
-#container{
+/*Principal container of the page.*/
+#container {
+    width: 1100px;
+    height: 200px;
+    margin: 0px auto;
+}
 
-width: auto;
-margin: 0px auto;
-border: 1px solid black;
+/*Navbar settings of adjusting the font.*/
+.navbar li {
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 15px;
+    color: #343a40;
+}
+
+/*----------Jumbotrom Elements----------*/
+
+/*Configuring the background color of the
+ jumbotron.*/
+.jumbotron {
+    width: auto;
+    background-color: transparent;
+    height: 850px;
+}
+
+/*Configuring the background color of the
+color of the jumbotron.*/
+#primary_btn {
+    background-color: #e5e7f3;
+
+}
+
+/*Adjusting jumbotron elements*/
+
+#principalTittle {
+
+    font-size: 90px;
+    color: #343a40;
+    justify-content: center;
+
+}
+
+#subTittle {
+
+    font-size: 20px;
+
+}
+
+#mainIlustration {
+
+    height: 600px;
+    right: 400px;
+
+}
+
+.btn-dark {
+
+    background-color: #380754;
+    font-size: 27px;
+    width: 300px;    
+    border-radius: 30px;
+
+}
+
+#primaryColorComponent{
+    color: #380754;
+}
+
+#navbarDropdown{
+    color: #380754;
+}
+
+
+.nameID{
+
+    font-size: 40px;
+
+}
+
+#intro-section{
+
+height: 1080px;
 
 }
